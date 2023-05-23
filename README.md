@@ -31,7 +31,6 @@ Premium Plan (Free Plan + Others)
 - Visualizzazione statistica mensile e annuale
 
 #
-<br />
 
 ## Chat
 L'utente potrà interagire con il chat-bot tramite la quale potrà ottenere informazioni utili per interagire con l'applicazione. Saranno fornite funzioni basilari combinate a funzioni come la creazione di una scheda tramite specifica notazione. Altre funzionalità potrebbero essere attivazione di notifiche da ricevere mediante social ad una determinata condizione (basilare). Qual'ora l'utente non fosse soddisfatto delle risposte ricevute potrebbe richiedere l'aiuto di un helper mediante messaggio apposito. Nel caso in cui l'utente non fosse abbonato Premium a GymBro (applicativo), se provasse a contattare il personal trainer, verrà mostrata una scheda con le informazioni sul personal trainer, le immagini relative ai suoi lavori (workbook) e il prezzo delle schede nutrizionali o di workout.
