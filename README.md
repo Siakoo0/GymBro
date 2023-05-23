@@ -1,14 +1,14 @@
 # GymBro
 
-Si vuole sviluppare una web app capace di eseguire su sistemi Android, Ios e Desktop. In particolare, si vuole creare un ecosistema software nel quale ci saranno due aspetti importanti: gestione amministrativa e utenza.
+Si vuole sviluppare una web app capace di eseguire su sistemi Android, Ios e Desktop. In particolare, si vuole creare un ecosistema software nel quale ci saranno due aspetti importanti: gestione amministrativa e utenza. 
 
-- # Utente
+# Utente
 
-    ## Home
-    La prima area di accesso è la home, in questa pagina l'utente potrà visualizzare alcune informazioni statistiche legate al suo miglioramento fisico in merito a determinati esercizi svolti che potrà approfondire andando a cliccare sulla sezione; inoltre potrà consultare un calendario che fornirà tutti gli appuntamenti prefissati tra l'utente e le varie figure offerte sia dall'applicativo sia dalla palestra in cui questo è iscritto. Inoltre verrà visualizzato un summary degli esercizi che dovranno essere effettuati quel giorno (omino che si illumina nei punti da allenare).
+## Home
+La prima area di accesso è la home, in questa pagina l'utente potrà visualizzare alcune informazioni statistiche legate al suo miglioramento fisico in merito a determinati esercizi svolti che potrà approfondire andando a cliccare sulla sezione; inoltre potrà consultare un calendario che fornirà tutti gli appuntamenti prefissati tra l'utente e le varie figure offerte sia dall'applicativo sia dalla palestra in cui questo è iscritto. Inoltre verrà visualizzato un summary degli esercizi che dovranno essere effettuati quel giorno (omino che si illumina nei punti da allenare).
 
-    ## Area Personale (Account)
-    In quest'area si potranno visualizzare le informazioni personali dell'account, cambiare la password ed email, effettuare il logout e vedere i termini e le condizioni d'uso. Da qui potranno andare a gestire i propri abbonamenti legati alla palestra in cui sono iscritti. Visualizzare uno storico delle sessioni di allenamento e degli appuntamenti prenotati. Inoltre, si potrà vedere uno storico degli ordini e lo stato delle spedizioni dei diversi ordini fatti sul marketplace. Si potrà accedere un'area di aiuto nella quale verranno mostrate una serie di FAQ, e verrà messo, se non soddisfatto, in contatto con un helper. Visualizzazione storico e inserimento delle misure relative alla grandezza corporale. All'interno dell'area personale verrà data la possibilità di accedere ad una sezione dedicata alle statistiche di miglioramento fisico del cliente. L'arco temporale coinvolto dipenderà dal tipo di abbonamento in suo possesso.
+## Area Personale (Account)
+In quest'area si potranno visualizzare le informazioni personali dell'account, cambiare la password ed email, effettuare il logout e vedere i termini e le condizioni d'uso. Da qui potranno andare a gestire i propri abbonamenti legati alla palestra in cui sono iscritti. Visualizzare uno storico delle sessioni di allenamento e degli appuntamenti prenotati. Inoltre, si potrà vedere uno storico degli ordini e lo stato delle spedizioni dei diversi ordini fatti sul marketplace. Si potrà accedere un'area di aiuto nella quale verranno mostrate una serie di FAQ, e verrà messo, se non soddisfatto, in contatto con un helper. Visualizzazione storico e inserimento delle misure relative alla grandezza corporale. All'interno dell'area personale verrà data la possibilità di accedere ad una sezione dedicata alle statistiche di miglioramento fisico del cliente. L'arco temporale coinvolto dipenderà dal tipo di abbonamento in suo possesso.
 
     - ## Abbonamento
         L'abbonamento si suddivide in uno standard e in uno premium.
