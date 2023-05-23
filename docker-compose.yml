@@ -1,0 +1,45 @@
+version: '3.9'
+networks:
+  network_gymbro:
+    driver: bridge
+    
+services:
+  frontend:
+    build: ./docker/frontend
+    container_name: frontend_container
+    volumes:
+      - "./frontend:/app"
+    ports:
+      - 3000:3000
+    networks:
+      - network_gymbro
+
+  mongodb:
+    image: mongo
+    restart: unless-stopped
+    ports:
+      - "27017:27017"
+    volumes:
+      - ./lib/database/mongo:/data/db
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: root
+      MONGO_INITDB_ROOT_PASSWORD: siakoo
+    networks:
+      - network_gymbro
+
+  database_sql:
+    image: mysql:latest
+    container_name: mysql_server_gymbro
+    restart: unless-stopped
+    ports:
+      - "3306:3306"
+    volumes:
+      - ./lib/database/mysql:/var/lib/mysql
+    environment: 
+      MYSQL_DATABASE: progetto
+      MYSQL_USER: siakoo
+      MYSQL_PASSWORD: siakoo
+      MYSQL_ROOT_PASSWORD: siakoo
+    stdin_open: true
+    networks:
+      - network_gymbro
