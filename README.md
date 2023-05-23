@@ -44,13 +44,17 @@ Nella sezione schede si potranno creare delle schede personali o consultare quel
 <!-- ## Marketplace -->
 
 <br>
+
+#
+
 <br>
 
 # <center>Area Figura Professionale</center>
 
 La figura professionale all'interno del sito web sarà colui che offrirà i suoi servizi ad un determinato prezzo. In particolare potrà gestire le schede create, 
 
-<br>
+#
+
 <br>
 
 # <center>Area Amministratore Palestra</center>
